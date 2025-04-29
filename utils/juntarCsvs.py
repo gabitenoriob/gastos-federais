@@ -28,6 +28,6 @@ def juntar_csvs(pasta, arquivo_saida):
         print("Nenhum arquivo CSV válido encontrado.")
 
 if __name__ == "__main__":
-    pasta = "dados/recursos recebidos federal normalizados"  # Pasta onde estão os arquivos CSV
+    pasta = "dados aguia/recursos recebidos federal normalizados"  # Pasta onde estão os arquivos CSV
     arquivo_saida = "recursosRecebidosFederal.csv"  # Nome do arquivo CSV de saída
     juntar_csvs(pasta, arquivo_saida)
